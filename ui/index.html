@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BrokenEthicsaLab™ Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>BrokenEthicsaLab™ Simulation Dashboard</h1>
+    <p>Defender-focused malware simulation suite for SOC validation and reverse engineering.</p>
+
+    <div class="controls">
+      <input type="text" id="scenarioInput" placeholder="Enter Scenario ID (e.g., T1055_POS_01)" />
+      <button onclick="runScenario()">Run Simulation</button>
+      <button onclick="replayLogs()">Replay Logs</button>
+    </div>
+
+    <div class="log-output" id="logOutput">
+      <h2>Simulation Logs</h2>
+      <pre id="logText">No logs yet.</pre>
+    </div>
+  </div>
+
+  <script src="dashboard.js"></script>
+</body>
+</html>

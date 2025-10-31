@@ -1,0 +1,51 @@
+body {
+  font-family: 'Courier New', monospace;
+  background-color: #0f0f0f;
+  color: #00ffcc;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #00ffff;
+}
+
+.controls {
+  margin-top: 1rem;
+}
+
+input[type="text"] {
+  padding: 0.5rem;
+  width: 60%;
+  background-color: #1a1a1a;
+  color: #00ffcc;
+  border: 1px solid #00ffff;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  margin-left: 0.5rem;
+  background-color: #00ffff;
+  color: #000;
+  border: none;
+  cursor: pointer;
+}
+
+.log-output {
+  margin-top: 2rem;
+  background-color: #1a1a1a;
+  padding: 1rem;
+  border: 1px solid #00ffff;
+}
+
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}

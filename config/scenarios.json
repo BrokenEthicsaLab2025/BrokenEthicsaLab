@@ -1,0 +1,10 @@
+{
+  "T1055_POS_01": {
+    "name": "POS Injection Test",
+    "mitre_chain": ["T1210", "T1055", "T1574"]
+  },
+  "T1574_POS_02": {
+    "name": "Execution Hijack Test",
+    "mitre_chain": ["T1574"]
+  }
+}
